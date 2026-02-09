@@ -36,7 +36,7 @@
   // =========================
   async function loadManifest() {
     try {
-      const resp = await fetch('manifest.json');
+      const resp = await fetch(BASE_PATH + '/manifest.json');
       manifest = await resp.json();
       allPages = [];
       for (const section of manifest.sections) {
@@ -52,7 +52,7 @@
 
   async function loadPage(path) {
     try {
-      const resp = await fetch('content/' + path);
+      const resp = await fetch(BASE_PATH + '/content/' + path);
       if (!resp.ok) throw new Error('Not found');
       return await resp.text();
     } catch (e) {
@@ -529,6 +529,17 @@
   // Routing
   // =========================
   function getPathFromUrl() {
+    // Check for redirect from 404.html
+    const params = new URLSearchParams(window.location.search);
+    const redirect = params.get('redirect');
+    if (redirect) {
+      const cleaned = redirect.replace(BASE_PATH, '').replace(/^\//, '');
+      // Clean the URL
+      history.replaceState(null, '', BASE_PATH + (cleaned ? '/' + cleaned : ''));
+      if (!cleaned) return 'home';
+      return cleaned + '.md';
+    }
+
     const path = window.location.pathname.replace(BASE_PATH, '').replace(/^\//, '');
     if (!path) return 'home';
     return path + '.md';
