@@ -1,0 +1,250 @@
+{
+  "sections": [
+    {
+      "name": "guides",
+      "label": "Guides",
+      "pages": [
+        {
+          "title": "Getting Started",
+          "file": "guides/getting-started.md"
+        },
+        {
+          "title": "Architecture",
+          "file": "guides/architecture.md"
+        },
+        {
+          "title": "Dependencies",
+          "file": "guides/dependencies.md"
+        },
+        {
+          "title": "Adding New Docs",
+          "file": "guides/adding-new-docs.md"
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "label": "Services",
+      "pages": [
+        {
+          "title": "AFKService",
+          "file": "services/AFKService.md"
+        },
+        {
+          "title": "ArenaService",
+          "file": "services/ArenaService.md"
+        },
+        {
+          "title": "BetterRagdollService",
+          "file": "services/BetterRagdollService.md"
+        },
+        {
+          "title": "ChatTagService",
+          "file": "services/ChatTagService.md"
+        },
+        {
+          "title": "CollisionService",
+          "file": "services/CollisionService.md"
+        },
+        {
+          "title": "CurrencyService",
+          "file": "services/CurrencyService.md"
+        },
+        {
+          "title": "DayNightService",
+          "file": "services/DayNightService.md"
+        },
+        {
+          "title": "GameReactionService",
+          "file": "services/GameReactionService.md"
+        },
+        {
+          "title": "InventoryService",
+          "file": "services/InventoryService.md"
+        },
+        {
+          "title": "ItemService",
+          "file": "services/ItemService.md"
+        },
+        {
+          "title": "LeaderboardService",
+          "file": "services/LeaderboardService.md"
+        },
+        {
+          "title": "LightingPriorityService",
+          "file": "services/LightingPriorityService.md"
+        },
+        {
+          "title": "LootboxService",
+          "file": "services/LootboxService.md"
+        },
+        {
+          "title": "ModerationService",
+          "file": "services/ModerationService.md"
+        },
+        {
+          "title": "MusicService",
+          "file": "services/MusicService.md"
+        },
+        {
+          "title": "NotificationService",
+          "file": "services/NotificationService.md"
+        },
+        {
+          "title": "PlayerDataService",
+          "file": "services/PlayerDataService.md"
+        },
+        {
+          "title": "RewardsService",
+          "file": "services/RewardsService.md"
+        },
+        {
+          "title": "ServerBoostsService",
+          "file": "services/ServerBoostsService.md"
+        },
+        {
+          "title": "SettingsService",
+          "file": "services/SettingsService.md"
+        },
+        {
+          "title": "ShopService",
+          "file": "services/ShopService.md"
+        },
+        {
+          "title": "SystemMessageService",
+          "file": "services/SystemMessageService.md"
+        },
+        {
+          "title": "TimePlayedService",
+          "file": "services/TimePlayedService.md"
+        },
+        {
+          "title": "TimerService",
+          "file": "services/TimerService.md"
+        },
+        {
+          "title": "TutorialManagementService",
+          "file": "services/TutorialManagementService.md"
+        },
+        {
+          "title": "WinStreakService",
+          "file": "services/WinStreakService.md"
+        }
+      ]
+    },
+    {
+      "name": "controllers",
+      "label": "Controllers",
+      "pages": [
+        {
+          "title": "AFKController",
+          "file": "controllers/AFKController.md"
+        },
+        {
+          "title": "AnimationController",
+          "file": "controllers/AnimationController.md"
+        },
+        {
+          "title": "ArenaController",
+          "file": "controllers/ArenaController.md"
+        },
+        {
+          "title": "BeamController",
+          "file": "controllers/BeamController.md"
+        },
+        {
+          "title": "ChatTagController",
+          "file": "controllers/ChatTagController.md"
+        },
+        {
+          "title": "ClickerController",
+          "file": "controllers/ClickerController.md"
+        },
+        {
+          "title": "DialogueController",
+          "file": "controllers/DialogueController.md"
+        },
+        {
+          "title": "HotbarVisibilityController",
+          "file": "controllers/HotbarVisibilityController.md"
+        },
+        {
+          "title": "KeybindsController",
+          "file": "controllers/KeybindsController.md"
+        },
+        {
+          "title": "LootboxController",
+          "file": "controllers/LootboxController.md"
+        },
+        {
+          "title": "ModerationController",
+          "file": "controllers/ModerationController.md"
+        },
+        {
+          "title": "NotificationController",
+          "file": "controllers/NotificationController.md"
+        },
+        {
+          "title": "PersonController",
+          "file": "controllers/PersonController.md"
+        },
+        {
+          "title": "ShopController",
+          "file": "controllers/ShopController.md"
+        },
+        {
+          "title": "SystemMessageController",
+          "file": "controllers/SystemMessageController.md"
+        },
+        {
+          "title": "TimerDisplayController",
+          "file": "controllers/TimerDisplayController.md"
+        },
+        {
+          "title": "TutorialController",
+          "file": "controllers/TutorialController.md"
+        }
+      ]
+    },
+    {
+      "name": "utilities",
+      "label": "Utilities",
+      "pages": [
+        {
+          "title": "ControllerKeybinds",
+          "file": "utilities/ControllerKeybinds.md"
+        },
+        {
+          "title": "ProductIds",
+          "file": "utilities/ProductIds.md"
+        },
+        {
+          "title": "RarityColors",
+          "file": "utilities/RarityColors.md"
+        },
+        {
+          "title": "Roles",
+          "file": "utilities/Roles.md"
+        },
+        {
+          "title": "Utils",
+          "file": "utilities/Utils.md"
+        }
+      ]
+    },
+    {
+      "name": "classes",
+      "label": "Classes",
+      "pages": [
+        {
+          "title": "LogIn",
+          "file": "classes/LogIn.md"
+        },
+        {
+          "title": "Person",
+          "file": "classes/Person.md"
+        }
+      ]
+    }
+  ]
+}
