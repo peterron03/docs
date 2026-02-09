@@ -6,7 +6,7 @@
     // GitHub Pages SPA redirect
     // Redirects 404s to index.html so the JS router can handle them
     const path = window.location.pathname;
-    window.location.replace(window.location.origin + '/docs/' + '?redirect=' + encodeURIComponent(path));
+    window.location.replace('/docs/?redirect=' + encodeURIComponent(path));
   </script>
 </head>
 <body>
